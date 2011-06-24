@@ -1,19 +1,22 @@
-jQuery Persistent URL Parameters plugin v0.1
+<h1>jQuery Persistent URL Parameters plugin v0.1</h1>
 - Kang Chen
 
 This plugin was written to address the pattern of having to persist certain URL parameters across requests. One instance where this might be useful is campaign codes. If someone visits the site with campaign=foo, this plugin will append that to all 'a' elements within the specified scope.
 
-Usage
-=====
+<h2>Usage</h2>
+
 1. Automatically append the specified parameters to all links on the page:
-> jQuery("a").persistUrlParams({ params: "campaign" });
+
+<blockquote>jQuery("a").persistUrlParams({ params: "campaign" });</blockquote>
 
 2. Persisting multiple parameters:
-> jQuery("a").persistUrlParams({ params: "param1, param2" });
+
+<blockquote>jQuery("a").persistUrlParams({ params: "param1, param2" });</blockquote>
 
 3. Chainability. Persistent URL Params supports maintains chainability that's often used in jQuery:
-> jQuery("a").persistUrlParams({ params: "view, parent" }).css("color", "red");
 
-Bug Fixes and Requests
-======================
+<blockquote>jQuery("a").persistUrlParams({ params: "view, parent" }).css("color", "red");</blockquote>
+
+<h2>Bug Fixes and Requests</h2>
+
 I welcome any feedback and bug fix patches.
