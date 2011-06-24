@@ -8,15 +8,21 @@ Usage
 -----
 1. Automatically append the specified parameters to all links on the page:
 
-`jQuery("a").persistUrlParams({ params: "campaign" });`
+`
+jQuery("a").persistUrlParams({ params: "campaign" });
+`
 
 2. Persisting multiple parameters:
 
-`jQuery("a").persistUrlParams({ params: "param1, param2" });`
+`
+jQuery("a").persistUrlParams({ params: "param1, param2" });
+`
 
 3. Chainability. Persistent URL Params supports maintains chainability that's often used in jQuery:
 
-`jQuery("a").persistUrlParams({ params: "view, parent" }).css("color", "red");``
+`
+jQuery("a").persistUrlParams({ params: "view, parent" }).css("color", "red");
+`
 
 Bug Fixes and Requests
 ----------------------
